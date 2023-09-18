@@ -304,7 +304,7 @@ public class CampingService {
         }
         ReserveDayEntity reserveDayEntity = opt.get();
         int currentQuantity = reserveDayEntity.getDayQuantity();
-        LocalDate reserveDay = dto.getReservation(); // 예약 날짜를 dto에서 가져옵니다.
+        LocalDate reserveDay = dto.getReservation();
 
         LocalDate today = LocalDate.now();
 
